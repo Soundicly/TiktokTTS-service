@@ -1,10 +1,7 @@
-# Typescript-Template
-A template to work with typescript. Compatibility with docker, and nodemon.
+# TiktokTTS Service
 
-## How to use
-There are different npm scripts implemented:
+This is a microservice to convert text to speech using tiktok's text to speech api and voices.
 
-- `pnpm dev`
-- `pnpm build`
-- `pnpm start`
+## Usage
 
+Go to `/tts?text=Example&voice={Valid voice name}`
